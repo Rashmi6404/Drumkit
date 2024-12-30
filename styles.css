@@ -1,9 +1,18 @@
 body {
-    text-align: center;
-    background-image:url("images/background.jpeg");
-    background-size: cover;
-    background-position: center;
+  text-align: center;
+  background-image: url("images/background.jpeg");
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat;  
+}
+
+@media (max-width: 768px) {
+  body {
+    background-image: url("images/background-small.jpeg");  
+    background-size: cover;  
   }
+}
+
   
   
   h1 {
