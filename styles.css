@@ -1,0 +1,104 @@
+body {
+    text-align: center;
+    background-image:url("images/background.jpeg");
+    background-size: cover;
+    background-position: center;
+  }
+  
+  
+  h1 {
+    font-size: 6rem;
+    color: #162df8;
+    font-family: "Arvo", cursive;
+    text-shadow: 3px 0 #ffffff;
+    animation: glow 1.5s ease-in-out infinite alternate;
+  }  
+  
+  
+  /* Animation to add a glowing effect */
+  @keyframes glow {
+    0% {
+      text-shadow: 0 0 5px #FF6F61, 0 0 10px #FF6F61, 0 0 15px #FF6F61, 0 0 20px #FF6F61;
+    }
+    100% {
+      text-shadow: 0 0 10px #DA0463, 0 0 15px #DA0463, 0 0 20px #DA0463, 0 0 30px #DA0463;
+    }
+  }
+  
+  
+  footer {
+    color: #DBEDF3;
+    font-family: sans-serif;
+  }
+  
+  .A {
+    background-image:url("images/crash.png");
+  }
+  
+  .S {
+    background-image:url("images/kick.png");
+  }
+  
+  .D {
+    background-image:url("images/snare.png");
+  }
+  
+  .F {
+    background-image:url("images/tom1.png");
+  }
+  
+  .G {
+    background-image:url("images/tom2.png");
+  }
+  
+  .H {
+    background-image:url("images/tom3.png");
+  }
+  
+  .J {
+    background-image:url("images/tom4.png");
+  }
+  
+  .set {
+    margin: 10% auto;
+  }
+  
+  .game-over {
+    background-color: red;
+    opacity: 0.8;
+  }
+  
+  .pressed {
+    box-shadow: 0 3px 4px 0 #DBEDF3;
+    opacity: 0.5;
+  }
+  
+  .red {
+    color: red;
+  }
+  
+  .drum {
+    outline: none;
+    border: 10px solid #113a64;
+    font-size: 5rem;
+    font-family: 'Arvo', cursive;
+    line-height: 2;
+    font-weight: 900;
+    color: #00f7ff; /* Gold text for better visibility */
+    text-shadow: 2px 2px 5px #404B69; /* Subtle shadow */
+    border-radius: 15px;
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    margin: 10px;
+  }
+  .drum:active {
+    color: #113a64;
+    border: 10px solid #22fced;
+    transform: scale(0.95); /* Shrink slightly for a pressed effect */
+    box-shadow: 0 0 20px #00ddff; 
+    filter: brightness(1.2); /* Slightly brighten the button image */
+  }
+  
+  
